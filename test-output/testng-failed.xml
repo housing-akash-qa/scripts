@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Default suite]">
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="scripts.ExportWebCoreVitals">
+        <methods>
+          <include name="loginGmailandExport"/>
+          <include name="setup"/>
+          <include name="test8"/>
+          <include name="test7"/>
+          <include name="test6"/>
+          <include name="test5"/>
+        </methods>
+      </class> <!-- scripts.ExportWebCoreVitals -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
